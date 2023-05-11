@@ -7,7 +7,6 @@ import {
 } from './ContactList.styled';
 
 export const ContactList = ({ contacts, onDelete }) => {
-  console.log('contacts :>> ', contacts);
   return (
     <ContactRoster>
       {contacts.map(({ id, name, number }) => (
